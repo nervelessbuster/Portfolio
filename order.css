@@ -1,0 +1,168 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url(/Order-summary-component/image/pattern-background-desktop.svg)
+    ;
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.container{
+    width: 25em;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    margin-top: 5em;
+    border-radius: 2em;
+   
+}
+
+.container .illustration{
+    border-radius: 2em 2em 0 0;
+    width: 100%;
+}
+
+.container p{
+    color: hsl(224, 23%, 55%);
+
+}
+
+.plan{
+    margin: 0 auto;
+    border: 1px transparent hsl(225, 100%, 98%);
+    border-radius: 20px;
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    justify-content:space-between;
+    width: 19em;
+    height: 4em;
+}
+
+.annual-plan{
+    width: 12em;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.annual-plan img{
+    padding: 4px;
+}
+
+.annual-plan span{
+    padding: 8px;
+}
+
+.change{
+    display: flex;
+    align-items: center;
+    
+}
+
+.change span{
+    padding: 10px;
+}
+
+
+.payment{
+           
+    background-color:hsl(249, 90%, 48%);
+    height: 4em;
+    width: 22em;
+    border: none;
+    box-shadow: 0px 5px 8px rgb(212, 212, 212);
+    border-radius: 15px;
+    margin: 15px 50px;
+    cursor: pointer;
+   color: white;
+   font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+   
+}
+
+.payment:hover{
+    background-color: hsl(227, 9%, 30%);
+}
+
+.cancel{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+
+
+}
+
+.cancel:hover{
+    background-color: aliceblue;
+    
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+        
+    }
+
+    .container{
+        width: 18em;
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+        margin-top: 5em;
+        border-radius: 2em;
+    
+       
+    }
+
+   #plan{
+       display: flex;
+       justify-content: center;
+       width: 15em;
+       height: 4em;
+       
+   }
+
+
+    .pay{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container p{
+        font-size: 14px;
+        padding: 4px;
+    }
+
+
+   
+    
+}
+
+@media screen and (min-width: 768px) {
+    body{
+      
+        width: 100%;
+    }
+
+    .container{
+        width: 25em;
+        height: 70vh;
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+        margin-top: 5em;
+        border-radius: 2em;
+    
+       
+    }
+
+
+}
+
+
+
+
